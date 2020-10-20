@@ -14,7 +14,8 @@ const NavigationBar = ({ children, ...rest }) => {
             <Nav.Link href="/support">Learn & Support</Nav.Link>
             </Nav>
             <Nav>
-                <Button />
+                <Button>Log In</Button>
+                <Button>Sign Up for Free</Button>
             </Nav>
         </Navbar.Collapse>
         </Navbar>
