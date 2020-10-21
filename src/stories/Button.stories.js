@@ -4,7 +4,7 @@ import Button from '../components/Button';
 
 export default {
   title: 'Button',
-  components: Button,
+  component: Button,
 };
 
 export const LogIn = () => <Button onClick={action('clicked')}>Log In</Button>
