@@ -1,9 +1,13 @@
 import React from 'react';
+import './Button.style.css'
 
-const Button = ({ children, href, onClick }) => (
-    <button className="button" href="/login" onClick={onClick}>
-        { children }
-    </button>
-);
+function Button (props) {
+    const { variant, children, ...rest} = props
+    return (
+        <button className={`button ${variant}`} {...rest}>
+            { children }
+        </button>
+    )
+}
 
-export default Button;
+export default Button

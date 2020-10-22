@@ -1,0 +1,18 @@
+.button{
+    border: none;
+    font-size: 20px;
+    border-radius:  4px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.signup{
+    background-color: #B803FF;
+    color: white;
+}
+
+.login{
+    background-color: black;
+    color: gray;
+}

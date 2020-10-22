@@ -22,8 +22,8 @@ export const Navigation = () =>
             <Nav.Link href="/support">Learn & Support</Nav.Link>
             </Nav>
             <Nav>
-                <Button>Log In</Button>
-                <Button>Sign Up for Free</Button>
+                <Button variant='login'>Log In</Button>
+                <Button variant='signup'>Sign Up for Free</Button>
             </Nav>
         </Navbar.Collapse>
 </NavigationBar>
