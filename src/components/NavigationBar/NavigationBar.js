@@ -3,7 +3,7 @@ import { Navbar } from 'react-bootstrap';
 
 const NavigationBar = ({ children, ...rest }) => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" {...rest}>
+        <Navbar {...rest}>
             { children }
         </Navbar>
     )
